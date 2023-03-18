@@ -1,2 +1,2 @@
 # chatgpt-communicate
-communicate ChatGPT.
+communicate ChatGPT sample.

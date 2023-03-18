@@ -1,0 +1,23 @@
+{
+  "name": "chatgpt-communicate",
+  "version": "1.0.0",
+  "description": "communicate ChatGPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "build": "npx tsc",
+    "build:watch": "npx tsc --watch"
+  },
+  "repository": "https://github.com/ryoukata/chatgpt-communicate.git",
+  "author": "ryoukata <ryoya3091@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3"
+  }
+}
